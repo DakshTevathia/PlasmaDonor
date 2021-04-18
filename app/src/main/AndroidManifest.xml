@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.donateplasma">
+    <!-- Permission to access the internet -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Permission to access the storage -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DonatePlasma">
+        <activity android:name=".update_details_2"></activity>
+        <activity
+            android:name=".update_details"
+            android:label="@string/title_activity_update_details"
+            android:theme="@style/Theme.DonatePlasma.NoActionBar" />
+        <activity android:name=".covidreports" />
+        <activity
+            android:name=".splashscreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".severe_side_effects_details"
+            android:label="@string/title_activity_severe_side_effects_details"
+            android:theme="@style/Theme.DonatePlasma.NoActionBar" />
+        <activity
+            android:name=".mild_side_effects_details"
+            android:label="@string/title_activity_mild_side_effects_details"
+            android:theme="@style/Theme.DonatePlasma.NoActionBar" />
+        <activity
+            android:name=".minor_side_effects_details"
+            android:label="@string/title_activity_minor_side_effects_details"
+            android:theme="@style/Theme.DonatePlasma.NoActionBar" />
+        <activity android:name=".eligibilty_form" />
+        <activity android:name=".reg_form" />
+        <activity android:name=".List_of_Donors" />
+        <activity
+            android:name=".after_donor_login"
+            android:theme="@style/Theme.DonatePlasma.NoActionBar" />
+        <activity
+            android:name=".registration_donor"
+            android:label="Are you Eligible to Donate?" />
+        <activity
+            android:name=".donationsideeffects"
+            android:label="Side Effects of Donation" />
+        <activity
+            android:name=".Prevention"
+            android:label="Prevention from Covid" />
+        <activity
+            android:name=".loginpage"
+            android:label="Login Page" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DonatePlasma.NoActionBar" />
+    </application>
+
+</manifest>

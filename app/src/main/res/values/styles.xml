@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Theme.DonatePlasma.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.DonatePlasma.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.DonatePlasma.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

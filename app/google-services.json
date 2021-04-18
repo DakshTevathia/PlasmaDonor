@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "778563265063",
+    "project_id": "plasmadonodt",
+    "storage_bucket": "plasmadonodt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778563265063:android:95ff2d84a1a42c8a93e402",
+        "android_client_info": {
+          "package_name": "com.android.donateplasma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778563265063-avev33j35ljj0mgp76cbobjt32fh7gni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxXEXIqWWnDPAkR4_zOeAFgA0wl6jqWXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778563265063-avev33j35ljj0mgp76cbobjt32fh7gni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

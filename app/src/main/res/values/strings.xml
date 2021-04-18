@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Donate Plasma</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Confirmexit">Confirm Exit</string>
+    <!-- sideeffects string-->
+    <string name="minordetails">Minor Effects</string>
+    <string name="detailsminoreffects1">Plasma contains a lot of water. For that reason, some people experience dehydration after donating plasma.</string>
+    <string name="detailsminoreffects2">Dehydration after donating plasma is usually not severe.Plasma is rich in nutrients and salts.</string>
+    <string name="detailsminoreffects3">These are important in keeping the body alert and functioning properly. Losing some of these substances through plasma donation can lead to an electrolyte imbalance.</string>
+    <string name="detailsminoreffects4">This can result in dizziness, fainting, and lightheadedness.</string>
+    <!--string array used in spinner -->
+    <string-array name="bloodgroups">
+        <item>Select Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string-array name="bloodgroupsupdate">
+        <item>Update Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string name="title_activity_minor_side_effects_details">minor_side_effects_details</string>
+    <string name="title_activity_mild_side_effects_details">mild_side_effects_details</string>
+    <string name="title_activity_severe_side_effects_details">severe_side_effects_details</string>
+
+    <!-- Reduce the Spread Points-->
+    <string name="stoptitle">You can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:</string>
+    <string name="stop1"><!--•-->Regularly  and  thoroughly  clean  your  hands  with  an  alcohol-based   hand   rub   or   wash   them   with   soap   and   water.</string>
+    <string name="stop2">Maintain at least 2 metre/6 feet distance between yourself and anyone who is coughing or sneezing.</string>
+    <string name="stop3">Avoid touching eyes, nose and mouth.</string>
+    <string name="stop4">Make sure you,and the people around you, follow good respiratory hygiene.</string>
+    <string name="stop5">Stay home if you feel unwell.</string>
+    <string name="stop6">Keep up to date on the latest COVID-19 hotspots (cities or local areas  where  COVID-19  is  spreading  widely).</string>
+    <string name="title_activity_update_details">update_details</string>
+</resources>
